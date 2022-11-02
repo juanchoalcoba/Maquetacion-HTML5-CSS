@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#contenedor {
+    width: 1200px;
+    height: 1000px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 23px;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+.aside-titulo {
+    text-align: center;
+    text-shadow: 2px 2px 5px #fff;
+    font-size: 40px;
+    
+}
+
+#header {
+    height: 15%;
+    background: #A4A4A4;
+    border-radius: 1em;
+    margin: 1em;
+    filter: drop-shadow(8px 8px 4px black);
+}
+
+#nav {
+    height: 10%;
+    background: #5e5d5d;
+    border-radius: 1em;
+    margin: 1em;
+    filter: drop-shadow(8px 8px 4px black);
+}
+
+#contenido {
+    height: 53%;
+    filter: drop-shadow(8px 8px 4px black);
+    margin: 1em; 
+}
+
+#footer {
+    height: 15%;
+    background: #5e5d5d;
+    border-radius: 1em;
+    margin: 1em;
+    filter: drop-shadow(8px 8px 4px black);   
+}
+
+.footer-title {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px #fff;
+}
+
+#section {
+    height: 90%;
+    width: 70%;
+    background: #A4A4A4;
+    border-radius: 1em;
+    float: left;
+    margin: 0.5em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-weight: bold;
+    filter: drop-shadow(8px 8px 4px black);
+}
+
+#aside {
+    height: 95%;
+    width: 25%;
+    background: #a4a4a4;
+    border-radius: 1em;
+    float: right;
+    margin: 0.5em;
+    filter: drop-shadow(8px 8px 4px black);
+}
+
+
+
+
+.titulo-header{
+    text-align: center;
+    text-shadow: 2px 2px 5px #fff;
+    font-size: 40px;
+}
+.titulo-nav {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 40px;
+}
+
+.articulo {
+    width: 96%;
+    height: 18%;
+    background: #ffffff;
+    margin: 1em;
+    border-radius: 1em;
+}
+.articulo1 {
+    width: 96%;
+    height: 18%;
+    background: #ffffff;
+    margin: 1em;
+    border-radius: 1em;
+    overflow: hidden;
+    text-align: center;
+    padding: 6px 8px;
+    
+    
+}
+.titulo {
+    color: black;
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: monospace;
+    
+}
